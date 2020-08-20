@@ -55,10 +55,10 @@
   - template parallax sections
   - footer styles
   - copyrights styles
-  - google map 
+  - google map
   - intro slider inside content
 * Intro Section Styles
-* Main Menu 
+* Main Menu
   - Desktop menu
   - Mobile menu
   - Mobile menu toggler
@@ -90,7 +90,7 @@
   - teasers
   - testimonials
   - thumbnail
-  - price tables 
+  - price tables
   - contact forms
   - partners_carousel
 * Social Icons
@@ -116,12 +116,12 @@ Background color for dark muted section (.ds.ms): #20272d
 Border colors for elements in light section (and .with_border elements): #f1f1f1, rgba(0, 0, 0, 0.1)
 Background color for elements in light section (.with_background): #f2f2f2
 
-Dark section (.ds) colors: 
+Dark section (.ds) colors:
 Text color in dark section: #b3b3b3
 Border colors for elements in dark section: rgba(255, 255, 255, 0.2)
 Background color for elements in dark section (.with_background): rgba(255, 255, 255, 0.05)
 
-Color section (.cs) colors: 
+Color section (.cs) colors:
 Border colors for elements in color section: rgba(255, 255, 255, 0.2)
 
 */
@@ -1574,7 +1574,7 @@ body {
 	font-family: 'Poppins', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
-	line-height: 30px;
+	line-height: 50px;
 	background-color: #ccc;
 }
 
@@ -1965,8 +1965,8 @@ ul.centered-list li:before {
 	display: none;
 }
 
-/* 
-** Buttons 
+/*
+** Buttons
 */
 .theme_buttons a,
 .theme_button,
@@ -3375,8 +3375,8 @@ div.ppt {
 	margin-top: 0;
 }
 
-/* 
-** Time Table 
+/*
+** Time Table
 */
 #timetable span {
 	display: block;
@@ -3412,7 +3412,7 @@ div.ppt {
 	color: #ffffff;
 }
 
-/* 
+/*
 ** toTop
 */
 #toTop {
@@ -4642,8 +4642,8 @@ body.boxed {
 /*
 **utilites
 */
-/* 
-**Helper Utilites 
+/*
+**Helper Utilites
 */
 /* layout */
 .clear, .clearfix {
@@ -6154,8 +6154,8 @@ hr.divider_left {
 	display: none;
 }
 
-/* 
-** Header 
+/*
+** Header
 */
 .header_white {
 	color: #808080;
@@ -8376,7 +8376,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 /*
-** Color Section - .cs 
+** Color Section - .cs
 */
 .cs.main_color2 {
 	background-color: #f77213;
@@ -8982,7 +8982,7 @@ section .intro_section .slide_description_wrapper {
 	margin: 40px 40px 20px;
 }
 
-/* 
+/*
 ** Intro Section Styles
 */
 .intro_section {
@@ -9289,7 +9289,7 @@ section .intro_section .slide_description_wrapper {
 
 	.sf-menu > li > a:hover:after,
   .sf-menu > li.active > a:after {
-		margin-top: 25px;
+		margin-top: 35px;
 		opacity: 1;
 	}
 
@@ -12013,8 +12013,8 @@ widget_pages
 	background-color: rgba(47, 54, 60, 0.8);
 }
 
-/* 
-** Testimonials 
+/*
+** Testimonials
 */
 @media (max-width: 600px) {
 	.blockquote-big {

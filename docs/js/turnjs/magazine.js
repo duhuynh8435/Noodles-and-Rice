@@ -179,7 +179,7 @@ function loadLargePage(page, pageElement) {
 
 	// Loadnew page
 	
-	img.attr('src', 'pages/' +  page + '-large.png');
+	img.attr('src', 'pages/' +  page + '.png');
 }
 
 // Load small page

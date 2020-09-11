@@ -757,7 +757,11 @@ function windowLoadInit() {
 			})
 		});
 	}
-
+	//page preloader
+	jQuery(".preloaderimg").fadeOut(150);
+	jQuery(".preloader").fadeOut(350).delay(200, function(){
+		jQuery(this).remove();
+	});
 	////////////////////
 	//header processing/
 	////////////////////
@@ -1121,11 +1125,7 @@ function windowLoadInit() {
 		$messagesModal.modal('show');
 	}
 
-	//page preloader
-	jQuery(".preloaderimg").fadeOut(150);
-	jQuery(".preloader").fadeOut(350).delay(200, function(){
-		jQuery(this).remove();
-	});
+
 }//eof windowLoadInit
 
 
